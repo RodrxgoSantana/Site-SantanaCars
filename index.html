@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- essa linha do charset não tava no vídeo! -->
+    <meta charset="utf-8">
+    <title>Santana Car's</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700|Pacifico' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">
+            <img src="img/logoOficinaNovo.png">
+        </a>
+        <ul>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#servicos">SERVIÇOS</a></li>
+            <li><a href="#localizacao">LOCALIZAÇÃO</a></li>
+            <li><a href="#portifolio">GALERIA</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>MECÂNICA GERAL</h1>
+        <p>Está procurando serviços de mecânica geral e manutenções preventivas para o seu veículo? Venha nos fazer uma
+            visita.</p>
+        <a href="#sobre" class="botao">Veja Mais</a>
+    </header>
+
+    <section id="sobre">
+        <h2>SOBRE</h2>
+        <p> Manutenção preventiva,
+            Diagnóstico via Scanner,
+            Suspensão,
+            Nacionais e Importados,
+            Multimarcas,
+            Orçamento via WhatsApp,
+            Sistema leva e traz.</p>
+        <a href="#contato" class="botao">ENTRE EM CONTATO</a>
+    </section>
+
+    <section id="servicos">
+        <h2>SERVIÇOS</h2>
+        <div>
+            <img src="img/iconeSERV.png" alt="Servicos">
+            <h3>Mecânica Geral</h3>
+            <p>Serviços de mecânica geral (Gasolina e Diesel), suspensão, freios,
+                manutenções preventivas e corretiva, preparação e etc..</p>
+        </div>
+        <div>
+            <img src="img/iconeSCAN.png" alt="Scanner">
+            <h3>Diagnóstico Via Scanner</h3>
+            <p>Utilizamos scanners de última geração, para proporcionarmos os diagnósticos mais precisos aos nossos
+                clientes, e com maior agilidade.</p>
+        </div>
+        <div>
+            <img src="img/iconLT.png" alt="LevaETraz">
+            <h3>Sistema Leva e Traz</h3>
+            <p>Para o maior conforto de nossos clientes, possuímos o sistema "Leva e Traz", buscamos seu veículo no
+                conforto da sua casa,
+                ou qualquer lugar que ele esteja localizado, e ao final de nosso serviços, levaremos o mesmo até o
+                local desejado.</p>
+        </div>
+    </section>
+
+    <section id="localizacao">
+        <h2>LOCALIZAÇÃO</h2>
+        <img src="img/mapaTESTE.png" alt="localizacao">
+        <p>Av. do Rio Bonito, 528 - Socorro São Paulo - SP, 04776-000</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>GALERIA</h2>
+        <img src="img/img2.jpg" alt="mercedes">
+        <img src="img/img3.jpg" alt="mercedes2">
+        <img src="img/img4.jpg" alt="bmw">
+        <img src="img/img5.jpg" alt="bmw2">
+        <img src="img/img8.jpg" alt="master">
+        <img src="img/img9.jpg" alt="master2">
+    </section>
+
+    <section id="contato">
+
+        <h2>CONTATO</h2>
+
+        <form action="enviarEmail.php" method="POST">
+
+            <input class="field" name="name" placeholder="Seu Nome" type="text">
+            <input class="field" name="email" placeholder="Seu email" type="email">
+            <input class="field" name="telefone" placeholder="Seu Telefone" type="tel">
+            <input class="field" name="veiculo" placeholder="Seu Veículo" type="text">
+
+            <button type="submit" name="BtnEnviar" class="btn-submit">Enviar</button>
+
+        </form>
+
+        <div class="telefone">
+            <img src="img/silhueta-de-alca-de-telefone.png" alt="fone">
+            <p><a href="#">(11) 97780-0793</a> <br> </p>
+        </div>
+
+        <div class="email">
+            <img src="img/o-email (1).png" alt="email">
+            <p><a href="#">santanacarsmecanica@gmail.com</a></p>
+
+        </div>
+
+        <p>Entre em contato conosco.</p>
+
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2020, RRPE Informática - Todos os diretos reservados</p>
+    </footer>
+
+</body>
+
+</html>
